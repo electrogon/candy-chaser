@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+    </head>
+    <body>
+        <div id="message-screen">
+            <h1>🎃🎁 Happy Birthday Jennifer! 🎈✨</h1>
+            <h3>Yousa gets a game!</h3>
+            <h4>Get all the red and yellow candy, but don't touch the candy canes! Use the arrow keys</h4>
+
+            <button class="play-button">Play</button>
+        </div>
+
+        <div id="game-over">
+            <img src="/images/jar-jar.png"/>
+            <h1>🎃 Oh No! 🎃</h1>
+            <h3>Yousa Lost</h3>
+            <h3>Yousa ate <span id="candies"></span> pieces of candy!</h3>
+            <button class="play-button">Play Again</button>
+        </div>
+
+        <canvas id="game-canvas">
+            <h1>Oh No.</h1>
+            <h3>You're using one of those spooky old browsers that doesn't support Canvas</h3>
+        </canvas>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="javascripts/main.js"></script>
+    </body>
+</html>
