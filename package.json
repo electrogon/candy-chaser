@@ -1,6 +1,7 @@
 {
   "name": "jennifer-2017",
- "main":"./bin/www", "version": "0.0.0",
+  // "main":"./bin/www", 
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
