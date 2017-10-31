@@ -1,6 +1,5 @@
 {
-  "name": "jennifer-2017",
-  // "main":"./bin/www", 
+  "name": "jennifer-2017", 
   "version": "0.0.0",
   "private": true,
   "scripts": {
